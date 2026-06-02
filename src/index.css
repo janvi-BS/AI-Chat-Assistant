@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+html {
+  scrollbar-color: #4B5563 #1a202c;
+}
+
+/* Legacy WebKit Engines (Older Chrome, Safari, and Edge versions) */
+::-webkit-scrollbar {
+  width: 12px; 
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
