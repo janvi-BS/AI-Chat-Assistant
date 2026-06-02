@@ -1,16 +1,29 @@
-# React + Vite
+# AI Chat Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern AI-powered chat application built with React, Vite, and Groq API. The application enables users to interact with large language models through a clean, responsive, and user-friendly chat interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Real-time AI conversations
+- Chat history support
+- Fast responses using Groq API
+- Copy user messages & Copy AI-generated responses
+- Clean and responsive UI
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- Groq API
+- Tailwind CSS
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository
+2. Install dependencies
+3. Configure environment variables
+4. Run the development server
+
+```bash
+npm install
+npm run dev
